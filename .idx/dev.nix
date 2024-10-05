@@ -9,7 +9,7 @@
     pkgs.maven
     pkgs.sudo
   ];
-  services.docker.enable = false;
+  services.docker.enable = true;
   # Sets environment variables in the workspace
   env = {};
   idx = {
