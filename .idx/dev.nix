@@ -15,21 +15,20 @@
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
-      "vscjava.vscode-java-pack"
-      "rangav.vscode-thunder-client"
       "vscjava.vscode-java-debug"
-      "vscjava.vscode-java-pack"
-      "redhat.java"
-      "vscjava.vscode-maven"
       "vscjava.vscode-java-dependency"
+      "vscjava.vscode-java-pack"
       "vscjava.vscode-java-test"
+      "vscjava.vscode-spring-boot-dashboard"
+      "vscjava.vscode-spring-initializr"
+      "vscjava.vscode-maven"
+      "redhat.java"
       "redhat.vscode-xml"
       "VMware.vscode-spring-boot"
       "VMware.vscode-boot-dev-pack"
-      "vscjava.vscode-spring-initializr"
-      "vscjava.vscode-spring-boot-dashboard"
+      "ms-azuretools.vscode-docker"
+      "rangav.vscode-thunder-client"
     ];
-          # "ms-azuretools.vscode-docker"
     workspace = {
       # Runs when a workspace is first created with this `dev.nix` file
       onCreate = {

@@ -8,18 +8,18 @@ Server should run automatically when starting a workspace. To run manually, run:
 ```sh
 mvn spring-boot:run
 ```
+## Run Active MQ Broker 
 
-
-
-Run Active MQ Broker 
-```
+```sh
 docker run -d --name activemq -p 61616:61616 -p 8161:8161 rmohr/activemq:5.15.9
 ```
 Web UI can be accessed from port 8161
 
 
+## Run alternative Active MQ Broker artemis
 
-docker run --detach --name mycontainer -p 61616:61616 -p 8161:8161 --rm apache/activemq-artemis:latest-alpine
-
+```sh
+docker run --detach --name activemq -p 61616:61616 -p 8161:8161 --rm apache/activemq-artemis:latest-alpine
+```
 Credentials: artemis
 
